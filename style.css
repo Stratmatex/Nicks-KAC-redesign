@@ -7,7 +7,6 @@ body {
 }
 
 
-
 #otherpage {
     opacity: 0;
     transition: opacity .5s;
@@ -768,5 +767,14 @@ body {
         align-items: center;
     }
 
+
+}
+
+
+@media screen and (max-width: 1920px) and (max-height: 1080px) {
+
+    html {
+        transform: scale(.5);
+    }
 
 }
