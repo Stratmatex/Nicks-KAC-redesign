@@ -769,12 +769,3 @@ body {
 
 
 }
-
-
-@media screen and (max-width: 1920px) and (max-height: 1080px) {
-
-    html {
-        transform: scale(.5);
-    }
-
-}
