@@ -1,0 +1,772 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: #000000;
+    opacity: 0;
+    transition: opacity 5s;
+}
+
+
+
+#otherpage {
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+
+@media all and (min-width: 960px) {
+
+    /*------------DESKTOP GENERAL SETTINGS------------*/
+
+    h1 {
+        color: white;
+        font-family: Oxygen;
+        font-size: 3.5em;
+    }
+
+    h3 {
+        color: white;
+        font-family: Oxygen;
+        font-size: 2em;
+        font-weight: bold;
+
+    }
+
+    p {
+        color: white;
+        font-family: Oxygen;
+    }
+
+    .spanbold {
+        font-weight: bold;
+    }
+
+
+    /*------------DESKTOP HOME------------*/
+
+    /*---NAVBAR AND ELEMENTS---*/
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10vw;
+        margin-top: 2.5vh;
+    }
+
+    .navbar-links {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-item {
+        color: white;
+        margin-right: 10vw;
+        list-style: none;
+        font-family: Oxygen;
+        font-size: 2em;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .nav-item a:hover {
+        text-decoration: none;
+        color: white;
+        transition-duration: 250ms;
+        font-weight: bold;
+        font-size: 105%;
+    }
+
+    .nav-item a:not(:hover) {
+        text-decoration: none;
+        color: white;
+        transition-duration: 250ms;
+        font-size: 100%;
+    }
+
+    /*---HERO---*/
+
+    .homepage-operator {
+        scale: 80%;
+        width: 85vw;
+    }
+
+    .hero {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20vw;
+        text-align: center;
+
+    }
+
+    #HeroH1 {
+        font-size: 3.5em;
+        line-height: 1.75em;
+    }
+
+    .cta {
+        position: absolute;
+        top: 25%;
+        right: 20%;
+        text-align: center;
+    }
+
+
+    #HeroButton {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+    }
+
+    #HeroButton:hover {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 102.5%;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+        transition-duration: 300ms;
+        scale: 102.5%;
+        cursor: pointer;
+
+    }
+
+    #HeroButton:not(:hover) {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 100%;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+        transition-duration: 300ms;
+        scale: 100%;
+    }
+
+    /*------------DESKTOP CONTACT------------*/
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        padding-top: 10vh;
+    }
+
+    #contactlistemails {
+        line-height: 150%;
+    }
+
+    .bolded {
+        font-weight: bold;
+    }
+
+    #RMAlink {
+        color: deepskyblue;
+        font-size: 75%;
+    }
+
+    /*------------DESKTOP OUR MISSION------------*/
+
+    #mission-main {
+        display: flex;
+        flex-direction: column;
+        margin: 10vh 10vw;
+
+    }
+
+
+
+    .mission-pair {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        line-height: 2vh;
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    #mission-pair-2 {
+        flex-direction: row-reverse;
+        margin-top: 5vh;
+    }
+
+    #mission-top-pic {
+        scale: 75vw;
+        margin-right: 10vh;
+    }
+
+    #mission-bottom-pic {
+        scale: 75vw;
+        margin-left: 10vh;
+
+    }
+
+    /*------------DESKTOP PRODUCTS/START------------*/
+
+    #product-start-h1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 13vh;
+        text-align: center;
+    }
+
+    .product-start-p {
+        font-size: 1.25em;
+        font-family: Oxygen;
+    }
+
+    #product-start-p-top {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 14px;
+        padding-top: 2vh;
+
+    }
+
+    #product-start-p-bottom {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-weight: 14px;
+
+    }
+
+    #product-cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-left: 27vw;
+        margin-right: 27vw;
+        margin-top: 4vw;
+
+    }
+
+    .p-card {
+        width: 28vh;
+        height: 32vh;
+        background: url(KACASSETS/pictures/m2cwtzz2am221.jpg);
+        background-size: cover;
+        background-position: center;
+        border-radius: 20px;
+        text-align: center;
+        padding-top: 8vh;
+        box-shadow: inset 0 0 0 50vw rgba(20, 20, 20, 0.556);
+        color: white;
+        font-family: Oxygen;
+        font-size: 2em;
+    }
+
+    #p-card-left {
+        margin-right: 5vh;
+        background: url("file:///home/nick/Desktop/KACRedesign/KACASSETS/pictures/SR-15-CARBINE-3-PRONG-PEQ-15-LA5-scaled.jpg");
+        background-size: cover;
+        background-position: center;
+    }
+
+    .p-card:hover {
+        transition-duration: 250ms;
+        scale: 105%;
+        box-shadow: inset 0 0 0 50vw rgba(161, 131, 94, 0.089);
+        cursor: pointer;
+
+    }
+
+    .p-card:not(:hover) {
+        transition-duration: 250ms;
+        scale: 100%;
+
+    }
+
+    /*------------DESKTOP PRODUCTS/KNIGHTVISION------------*/
+
+    #knightvision-h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 25vh;
+        font-weight: bold;
+    }
+
+
+
+    video {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+        margin-top: -35px;
+    }
+
+    svg {
+        scale: 25%;
+        position: absolute;
+    }
+
+    #arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20%;
+        padding-top: 5%;
+
+
+    }
+
+    #knightvision-cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /*USED BY FIREARMS SECOND STEP!!!!!!!!!!!!!!!!*/
+    .knightvision-products {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        scale: 87%;
+    }
+
+    .knightvision-p-link {
+        margin: 5vw;
+        text-align: center;
+    }
+
+    .knightvision-p-link:hover {
+        transition-duration: 350ms;
+        scale: 95%;
+        cursor: pointer;
+    }
+
+    .knightvision-p-link:not(:hover) {
+        transition-duration: 350ms;
+        scale: 87%;
+    }
+
+
+    /*------------DESKTOP PRODUCTS/FIREARMS------------*/
+
+    #firearm-cards {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+    }
+
+    .f-card {
+        background-color: blueviolet;
+        height: 12vh;
+        width: 80vw;
+        margin-top: 5vh;
+        border-radius: 20px;
+        text-align: center;
+        color: white;
+        justify-content: center;
+        padding-top: 10vh;
+        font-family: Oxygen;
+        font-size: 2.5em;
+        box-shadow: inset 0 0 0 50vw rgba(20, 20, 20, 0.556);
+    }
+
+    .f-card:hover {
+        transition-duration: 250ms;
+        scale: 105%;
+        box-shadow: inset 0 0 0 50vw rgba(161, 131, 94, 0.089);
+        cursor: pointer;
+    }
+
+    .f-card:not(:hover) {
+        transition-duration: 250ms;
+        scale: 100%;
+
+    }
+
+    #f-card-top {
+        background: url(KACASSETS/pictures/Knight-s_Armament_US_Army_banner.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #f-card-mid {
+        background: url(KACASSETS/pictures/civ\ rifle.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+    #f-card-bottom {
+        margin-bottom: 10vw;
+        background: url(KACASSETS/pictures/Blog_Resize_2048x.webp);
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/MILITARY------------*/
+
+    #military-header {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 13vh;
+        text-align: center;
+    }
+
+    #military-header p {
+        font-family: Oxygen;
+        font-size: 1.25em;
+        margin-top: 5vh;
+
+    }
+
+    #LAMG {
+        padding-left: 50vh;
+    }
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/COMMERCIAL------------*/
+
+    #SR-25 {
+        padding-left: 50vh;
+    }
+
+    #SR15 {
+        padding-left: 50vh;
+    }
+
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/MILITARY/M110------------*/
+
+    #m110-hero {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: -5vw;
+
+    }
+
+    #m110-hero h1 {
+        margin-top: 10vw;
+    }
+
+    #m110-hero-img {
+        position: absolute;
+        transform: rotate(270deg);
+        margin-left: 32vw;
+        width: 85vw;
+        margin-top: -685px;
+
+
+
+    }
+
+    #m110-hero-text {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+    }
+
+    #spacer-1 {
+        height: 40px;
+    }
+
+    #spacer-2 {
+        height: 80px;
+    }
+
+    #m110K2-hero {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 85vh;
+        margin-left: 50vw;
+        margin-right: 7.5vw;
+    }
+
+    #m110K2-hero-img {
+        position: absolute;
+        transform: rotate(270deg);
+        margin-left: -10vw;
+        width: 70vw;
+        margin-top: -650px;
+
+    }
+
+    #featuresandspecs {
+        text-align: center;
+        margin-top: 2vw;
+
+
+    }
+
+    #m110k5all {
+        margin-top: 900px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #m110K5-hero-img {
+        width: 70vw;
+        margin-left: 15vw;
+    }
+
+    #m110A2-hero-img {
+        position: absolute;
+        transform: rotate(270deg);
+        margin-left: 32vw;
+        width: 85vw;
+        margin-top: -685px;
+
+    }
+
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/MILITARY/SR16------------*/
+
+    #sr16-h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10vw;
+
+    }
+
+    #sr16group {
+
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 5vw;
+
+    }
+
+    .featuresandspecsSr16 {
+        margin-bottom: 10vw;
+    }
+
+    .sr16img {
+        width: 75vw;
+    }
+
+    #sr16bottomgroup {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10vw;
+    }
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/MILITARY/LAMG------------*/
+
+    #lamgdescription {
+        margin-bottom: 10vh;
+    }
+
+    .lamgimg {
+        margin-left: 15vw;
+        width: 100vw;
+
+    }
+
+    .amgimg {
+        width: 75vw;
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    }
+
+
+    #amg-h1 {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin-top: 10vw;
+        margin-bottom: 7.5vw;
+    }
+
+
+    /*------------DESKTOP PRODUCTS/FIREARMS/COMMERCIAL/RIFLES------------*/
+
+    .commercialproductdescription {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .commercialitemsleft {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        margin-top: 2vw;
+    }
+
+    #sr25ccimg {
+        width: 55vw;
+    }
+
+    .commercialitemgroup {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .commercialitemsright {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 17.5vw;
+        margin-top: 5vw;
+    }
+
+    .CommercialProductButton {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+    }
+
+    .CommercialProductButton:hover {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 102.5%;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+        transition-duration: 300ms;
+        scale: 102.5%;
+        cursor: pointer;
+
+    }
+
+    .CommercialProductButton:not(:hover) {
+        background-color: #000000;
+        border: 1px solid;
+        border-color: #ffffff;
+        font-family: "Oxygen-Regular", Helvetica;
+        color: #ffffff;
+        font-size: 100%;
+        text-align: center;
+        line-height: normal;
+        padding: 20px 50px;
+        margin-top: 2.5vh;
+        transition-duration: 300ms;
+        scale: 100%;
+    }
+
+    #lower {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 10vw;
+        margin-top: 2vw;
+    }
+
+    #sr15lowerimg {
+        width: 50vw;
+        margin-left: 20vw;
+    }
+
+    #sr30dsrimg {
+        width: 40vw;
+
+    }
+
+    #sr30cqbimg {
+        width: 50vw;
+        margin-left: -10vw;
+    }
+
+    #quick {
+        margin-top: 5vw;
+    }
+
+    /*------------DESKTOP PRODUCTS/KNIGHTVISION/PRODUCTS------------*/
+
+
+    .knightvisionproductmain {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+
+    }
+
+    #knightfeatures {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    #firelrimg {
+        width: 75vw;
+    }
+
+    #ranges {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .knightcontact1 {
+
+        margin-top: 5vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .knightcontact2 {
+        margin-bottom: 5vw;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+
+}
