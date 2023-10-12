@@ -280,7 +280,7 @@ body {
 
     #p-card-left {
         margin-right: 5vh;
-        background: url("file:///home/nick/Desktop/KACRedesign/KACASSETS/pictures/SR-15-CARBINE-3-PRONG-PEQ-15-LA5-scaled.jpg");
+        background: url(KACASSETS/pictures/SR-15-CARBINE-3-PRONG-PEQ-15-LA5-scaled.jpg);
         background-size: cover;
         background-position: center;
     }
